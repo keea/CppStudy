@@ -16,6 +16,7 @@ private:
 	Circle outCircle;
 
 public:
+	Ring(int, int, int, int, int, int);
 	void Init(int, int, int, int, int, int);
 	void ShowRingInfo() const;
 };

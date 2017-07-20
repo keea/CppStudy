@@ -1,6 +1,6 @@
 /*
 * @file		Point.h
-* @date     Thu Jul 20 13:42:45 2017
+* @update	Thu Jul 20 16:46:15 2017
 * @author   keea
 */
 
@@ -13,7 +13,8 @@ private:
 	int xpos, ypos;
 
 public:
-	void Init(int x, int y);
+	Point(int, int);
+	void Init(int , int );
 	void ShowPointInfo() const;
 };
 

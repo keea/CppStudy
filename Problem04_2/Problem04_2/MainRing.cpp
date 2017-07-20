@@ -9,7 +9,6 @@
 #include "Ring.h"
 
 void main() {
-	Ring ring;
-	ring.Init(1, 1, 4, 2, 2, 9);
+	Ring ring(1, 1, 4, 2, 2, 9);
 	ring.ShowRingInfo();
 }

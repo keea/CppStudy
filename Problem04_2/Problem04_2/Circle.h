@@ -16,6 +16,7 @@ private:
 	int radius;
 
 public:
+	Circle(int, int, int);
 	void Init(int, int, int);
 	void ShowRadius() const;
 };

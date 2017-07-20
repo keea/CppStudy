@@ -13,6 +13,11 @@ void Point::Init(int x, int y) {
 	ypos = y;
 }
 
+Point::Point(int x, int y) {
+	xpos = x;
+	ypos = y;
+}
+
 void Point::ShowPointInfo() const {
 	std::cout << "[" << xpos << "," << ypos << "]" << std::endl;
 }
