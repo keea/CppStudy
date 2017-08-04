@@ -16,12 +16,12 @@ void main() {
 	std::cout << str3;
 	str1 += str2;
 	if (str1 == str3)
-		std::cout << "동일 문자열!" << std::endl;
+		std::cout << "Identical String!" << std::endl;
 	else
-		std::cout << "동일하지 않은 문자열!" << std::endl;
+		std::cout << "Unequal String!" << std::endl;
 
 	String str4;
-	std::cout << "문자열 입력: ";
+	std::cout << "Input String: ";
 	std::cin >> str4;
-	std::cout << "입력한 문자열: " << str4 << std::endl;
+	std::cout << "Entered String: " << str4 << std::endl;
 }

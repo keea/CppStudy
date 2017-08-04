@@ -20,8 +20,6 @@ public:
 
 	String& operator=(const String &ref);
 
-	//String& operator=(char * _str);
-
 	void operator+=(const String &ref);
 
 	bool operator==(const String &ref);
